@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordCheckView">
+        <attr name="pass_check_color_very_weak" format="color|reference" />
+        <attr name="pass_check_color_weak" format="color|reference" />
+        <attr name="pass_check_color_reasonable" format="color|reference" />
+        <attr name="pass_check_color_strong" format="color|reference" />
+
+        <attr name="pass_check_name_very_weak" format="string|reference" />
+        <attr name="pass_check_name_weak" format="string|reference" />
+        <attr name="pass_check_name_reasonable" format="string|reference" />
+        <attr name="pass_check_name_strong" format="string|reference" />
+
+        <attr name="pass_check_indicator_height" format="dimension" />
+        <attr name="pass_check_indicator_marginTop" format="dimension" />
+        <attr name="pass_check_animation_duration" format="integer" />
+        <attr name="pass_check_indicator_text_size" format="dimension" />
+
+
+        <attr name="pass_check_anim_interpolator" format="enum">
+            <enum name="DecelerateInterpolator" value="0" />
+            <enum name="AccelerateDecelerateInterpolator" value="1" />
+            <enum name="AccelerateInterpolator" value="2" />
+            <enum name="BounceInterpolator" value="3" />
+            <enum name="AnticipateInterpolator" value="4" />
+            <enum name="AnticipateOvershootInterpolator" value="5" />
+            <enum name="LinearInterpolator" value="6" />
+        </attr>
+
+        <attr name="pass_check_indicator_text_gravity" format="enum">
+            <enum name="start" value="0" />
+            <enum name="center" value="1" />
+            <enum name="end" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
