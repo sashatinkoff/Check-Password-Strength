@@ -2,8 +2,6 @@
 A simple UI for checking a password strength
 
 https://www.youtube.com/watch?v=vlzFNnvDGR0
-[![Little red riding hood](https://thumbs.gfycat.com/MixedWelllitGrebe-mobile.jpg)](
-https://www.youtube.com/watch?v=vlzFNnvDGR0 "Little red riding hood - Click to Watch!")
 
 The lib supports 5 states of password:
 - None (empty string)
