@@ -15,8 +15,11 @@ As a default behavior the strength is based on the length of the password, but y
 
 ## To implement it in your app you have to do following steps:
 1. Copy and paste "password_checker" package into your app https://gist.github.com/sashatinkoff/194764f982fbcc9e3931fdf9029260bc
+
 2. Copy a region "PasswordCheckView" into your /values/attrs.xml https://gist.github.com/sashatinkoff/08a5f5f6c40d5680893735fec66c4f85
+
 3. Add a PasswordCheckView into your xml layout and configure it. https://gist.github.com/sashatinkoff/aacf003bee5870862762f4f933fc4632
+
 4. Attach a TextWatcher listener to the view in your Activity / Fragment https://gist.github.com/sashatinkoff/546ced5bc828b0e98c9cdb2558a3ebfb
 
 
