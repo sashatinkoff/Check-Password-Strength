@@ -24,19 +24,34 @@ As a default behavior the strength is based on the length of the password, but y
 Use following View attributes to configure a View in the xml layout
 
 <code>
+        
         app:layout_constraintStart_toStartOf="parent"
+        
         app:layout_constraintTop_toTopOf="parent"
+        
         app:pass_check_anim_interpolator="AccelerateDecelerateInterpolator"
+        
         app:pass_check_animation_duration="400"
+        
         app:pass_check_color_reasonable="#03A9F4"
+        
         app:pass_check_color_strong="#4CAF50"
+        
         app:pass_check_color_weak="@color/purple_700"
+        
         app:pass_check_indicator_height="4dp"
+        
         app:pass_check_indicator_marginTop="4dp"
+        
         app:pass_check_indicator_text_gravity="center"
+        
         app:pass_check_indicator_text_size="14dp"
+        
         app:pass_check_name_reasonable="Good"
+        
         app:pass_check_name_strong="Perfectos"
+        
         app:pass_check_name_very_weak="Very weak"
+        
         app:pass_check_name_weak="@string/app_name"
   </code>
