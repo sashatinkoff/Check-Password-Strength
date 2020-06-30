@@ -23,11 +23,7 @@ As a default behavior the strength is based on the length of the password, but y
 ## Configuring the view
 Use following View attributes to configure a View in the xml layout
 
-<code>
-        
-        app:layout_constraintStart_toStartOf="parent"
-        
-        app:layout_constraintTop_toTopOf="parent"
+<code> 
         
         app:pass_check_anim_interpolator="AccelerateDecelerateInterpolator"
         
@@ -55,3 +51,6 @@ Use following View attributes to configure a View in the xml layout
         
         app:pass_check_name_weak="@string/app_name"
   </code>
+  
+  ### Why it's not a library that I can add as a dependency in the build.gradle?
+  It's pretty small code and implementing it as a code you can change / extend it as you wish
