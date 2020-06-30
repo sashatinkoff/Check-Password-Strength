@@ -1,7 +1,10 @@
 # Check-Password-Strength
 A simple UI for checking a password strength
 
-https://giant.gfycat.com/MixedWelllitGrebe.mp4
+https://www.youtube.com/watch?v=vlzFNnvDGR0&feature=youtu.be
+https://www.youtube.com/watch?v=vlzFNnvDGR0&feature=youtu.be
+
+[![Everything Is AWESOME](https://thumbs.gfycat.com/MixedWelllitGrebe-mobile.jpg)](https://www.youtube.com/watch?v=vlzFNnvDGR0&feature=youtu.be"Everything Is AWESOME")
 
 The lib supports 5 states of password:
 - None (empty string)
